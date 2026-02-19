@@ -14,7 +14,7 @@ public class IndicatorFormatter {
         Component itemNameComponent = itemStack.getHoverName();
         String itemName = itemNameComponent.getString();
         int amount = itemStack.getCount();
-        String defaultName = itemStack.getItem().getName().getString();
+        String defaultName = itemStack.getItem().getName(itemStack).getString();
         boolean isRenamed = !itemName.equals(defaultName);
         boolean isDefaultName = itemNameComponent.getStyle().equals(Style.EMPTY);
 

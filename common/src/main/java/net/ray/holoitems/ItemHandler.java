@@ -51,7 +51,7 @@ public class ItemHandler {
 
         holo.onRender(h -> {
             if (item.isAlive()) {
-                float partialTick = Minecraft.getInstance().getDeltaTracker().getGameTimeDeltaPartialTick(false);
+                float partialTick = Minecraft.getInstance().getTimer().getGameTimeDeltaPartialTick(false);
                 float ageInTicks = (float)item.getAge() + partialTick;
                 if(ConfigGetter.iconfig.bobbing){
                     float bobbingOffset = (float)(Math.sin(ageInTicks / 10.0F + item.bobOffs) * 0.1F + 0.1F);
@@ -98,7 +98,7 @@ public class ItemHandler {
                             .trackEntity(item.getId(), new Vec3(0, yOffset, 0));
                     lineHolo.onRender(h -> {
                         if (item.isAlive()) {
-                            float partialTick = mc.getDeltaTracker().getGameTimeDeltaPartialTick(false);
+                            float partialTick = Minecraft.getInstance().getTimer().getGameTimeDeltaPartialTick(false);
                             float ageInTicks = (float)item.getAge() + partialTick;
                             if(ConfigGetter.iconfig.bobbing){
                                 float bobbingOffset = (float)(Math.sin(ageInTicks / 10.0F + item.bobOffs) * 0.1F + 0.1F);
@@ -115,7 +115,7 @@ public class ItemHandler {
                 Hologram mainHolo = idata.hologram;
                 mainHolo.onRender(h -> {
                     if (item.isAlive()) {
-                        float partialTick = mc.getDeltaTracker().getGameTimeDeltaPartialTick(false);
+                        float partialTick = Minecraft.getInstance().getTimer().getGameTimeDeltaPartialTick(false);
                         float ageInTicks = (float)item.getAge() + partialTick;
                         if(ConfigGetter.iconfig.bobbing){
                             float bobbingOffset = (float)(Math.sin(ageInTicks / 10.0F + item.bobOffs) * 0.1F + 0.1F);
@@ -137,7 +137,7 @@ public class ItemHandler {
                             .trackEntity(item.getId(), new Vec3(0, yOffset, 0));
                     lineHolo.onRender(h -> {
                         if (item.isAlive()) {
-                            float partialTick = mc.getDeltaTracker().getGameTimeDeltaPartialTick(false);
+                            float partialTick = Minecraft.getInstance().getTimer().getGameTimeDeltaPartialTick(false);
                             float ageInTicks = (float)item.getAge() + partialTick;
                             if(ConfigGetter.iconfig.bobbing){
                                 float bobbingOffset = (float)(Math.sin(ageInTicks / 10.0F + item.bobOffs) * 0.1F + 0.1F);
@@ -157,7 +157,7 @@ public class ItemHandler {
             Hologram mainHolo = idata.hologram;
             mainHolo.onRender(h -> {
                 if (item.isAlive()) {
-                    float partialTick = Minecraft.getInstance().getDeltaTracker().getGameTimeDeltaPartialTick(false);
+                    float partialTick = Minecraft.getInstance().getTimer().getGameTimeDeltaPartialTick(false);
                     float ageInTicks = (float)item.getAge() + partialTick;
                     if(ConfigGetter.iconfig.bobbing){
                         float bobbingOffset = (float)(Math.sin(ageInTicks / 10.0F + item.bobOffs) * 0.1F + 0.1F);
