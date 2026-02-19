@@ -1,0 +1,32 @@
+modLoader = "javafml"
+loaderVersion = "[2,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "holo_items"
+version = "${version}"
+displayName = "Holo Items"
+authors = "ray"
+description = '''
+Display item names above dropped items for easy identification! Fully customizable and client-sided.
+'''
+#logoFile = ""
+
+[[dependencies.holo_items]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.holo_items]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.11,)"
+ordering = "NONE"
+side = "BOTH"
+
+
+[[mixins]]
+config = "holo_items.mixins.json"

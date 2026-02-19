@@ -1,0 +1,48 @@
+{
+  "text.autoconfig.holo-items.title": "Holo Items Config",
+
+  "text.autoconfig.holo-items.option.enableIndicator": "Enable Indicators",
+  "text.autoconfig.holo-items.option.enableIndicator.@Tooltip": "Enable holographic item names",
+
+  "text.autoconfig.holo-items.option.renderDistance": "Render Distance",
+  "text.autoconfig.holo-items.option.renderDistance.@Tooltip": "Changes how far item names will be shown",
+
+  "text.autoconfig.holo-items.option.bobbing": "Bobbing",
+  "text.autoconfig.holo-items.option.bobbing.@Tooltip": "Enables bobbing of text",
+
+  "text.autoconfig.holo-items.option.displayMode": "Display Mode",
+  "text.autoconfig.holo-items.option.displayMode.@Tooltip": "How indicators are displayed",
+
+  "text.autoconfig.holo-items.option.displayMode.@Enum.ALWAYS_ON": "Always On",
+  "text.autoconfig.holo-items.option.displayMode.@Enum.HOVER": "Hover",
+
+  "text.autoconfig.holo-items.option.directionAngle": "Direction Angle",
+  "text.autoconfig.holo-items.option.directionAngle.@Tooltip": "How big the hover area is (in angles).",
+
+  "text.autoconfig.holo-items.option.indicatorFormat": "Indicator Format",
+  "text.autoconfig.holo-items.option.indicatorFormat.@Tooltip[0]": "Formatting for item names,",
+  "text.autoconfig.holo-items.option.indicatorFormat.@Tooltip[1]": "supporting the use of minecraft color codes (e.g. &a).",
+  "text.autoconfig.holo-items.option.indicatorFormat.@Tooltip[2]": "Placeholders: {name} {amount}.",
+
+  "text.autoconfig.holo-items.option.shadow": "Text Shadow",
+  "text.autoconfig.holo-items.option.shadow.@Tooltip": "Enables shadow for texts.",
+
+  "text.autoconfig.holo-items.option.indicatorScale": "Indicator Scale",
+  "text.autoconfig.holo-items.option.indicatorScale.@Tooltip": "How big the item names will be.",
+
+  "text.autoconfig.holo-items.option.offset": "Offset",
+  "text.autoconfig.holo-items.option.offset.@Tooltip": "How much to offset item name in blocks.",
+
+  "text.autoconfig.holo-items.option.showTooltips": "Show Tooltips",
+  "text.autoconfig.holo-items.option.showTooltips.@Tooltip": "Show item tooltips when hovering",
+
+  "text.autoconfig.holo-items.option.tooltipRenderDistance": "Tooltip Render Distance",
+  "text.autoconfig.holo-items.option.tooltipRenderDistance.@Tooltip": "Maximum distance for tooltips to render",
+
+  "text.autoconfig.holo-items.option.tooltipScale": "Tooltip Scale",
+  "text.autoconfig.holo-items.option.tooltipScale.@Tooltip": "Scale for tooltip text",
+
+  "text.autoconfig.holo-items.option.tooltipAboveName": "Tooltip Above Name",
+  "text.autoconfig.holo-items.option.tooltipAboveName.@Tooltip[0]": "If true, tooltip renders above name.",
+  "text.autoconfig.holo-items.option.tooltipAboveName.@Tooltip[1]": "If false, name is on top with tooltip below"
+}

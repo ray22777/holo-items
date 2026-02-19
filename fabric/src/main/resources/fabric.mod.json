@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "holo_items",
+  "version": "${version}",
+  "name": "Holo Items",
+  "description": "Display item names above dropped items for easy identification! Fully customizable and client-sided.",
+  "authors": [
+    "ray"
+  ],
+  "contact": {
+    "homepage": ""
+  },
+  "license": "MIT",
+  "icon": "assets/holo_items/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.ray.holoitems.fabric.HoloItemsFabric"
+    ],
+    "client": [
+      "net.ray.holoitems.fabric.client.HoloItemsFabricClient"
+    ]
+  },
+  "mixins": [
+    "holo_items.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": ">=1.21.2",
+    "java": ">=21",
+    "fabric-api": "*",
+    "cloth-config": "*",
+    "hologram_api": ">=1.1.0"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}
